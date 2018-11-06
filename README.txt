@@ -4,7 +4,7 @@
 # Project     : NIH 10-332
 # Description : Help file for running the scripts to analyze luminex and functional measurements
 #				associated with the HIV vaccine trial 10-332
-# Cite        : TBD
+# Cite        : https://doi.org/10.1038/s41591-018-0161-0
 # ******************************************************************************
 
 # Copyright (C) <2018>  <Srivamshi Pittala>
