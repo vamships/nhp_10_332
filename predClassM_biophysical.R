@@ -274,7 +274,7 @@ for(testIdx in seq(1,repeatRun)){
 # Sec 07: Comparing actual and permuted models' performance
 # -------------------------------------------
 
-robust_randSel = as.data.frame(cbind(rep(3,repeatRun),cv_permut[,1]))
+robust_randSel = as.data.frame(cbind(rep(3,repeatRun),1-cv_permut[,1]))
 colnames(robust_randSel) = c('label','Acc')
 robust_randSel$label = as.factor(robust_randSel$label)
 
